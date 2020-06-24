@@ -5,27 +5,41 @@ body {
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin:  5%;
   color: #FEF2BF;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.container {
+h4{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.0rem;
+  margin:  5%;
+  color: #FEF2BF;
+
+}
+
+.container1{
   display: block;
   width: 50%;
-  margin: auto;
-
+  margin: auto
 }
 
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border: 10px solid black;
   border-radius: 20%;
+  text-align: center;
 }
 
+.disable{
+
+
+}
 .game-over {
   background-color: red;
   opacity: 0.8;
